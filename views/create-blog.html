@@ -1,0 +1,119 @@
+<!-- <html>
+  <body>
+    <form action="home" method="POST">
+    <input type="text" name="title" placeholder="title" id="title"><br><br>
+    <input type="text" name="text" id="text" placeholder="blog"><br><br>
+    <input type="text" name="imglink" id="imglink" placeholder=" paste your image link"><br><br>
+    <input type="submit" id="submit">
+</form>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome to Glitch!</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://previews.123rf.com/images/keviz/keviz1802/keviz180200105/96050818-letter-s-in-fire-flame-icon-vector-illustration-.jpg" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--     jquery syntex -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- import the webpage's stylesheet -->
+<!--     <link rel="stylesheet" href="/style.css"> -->
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+    
+    	<style>
+		body{
+			background-color: cyan;
+		}
+        .post_courses{
+          display: flex;
+          background-color: white;
+			    width: 90%;
+			    height: auto;
+			    border:3px solid red;
+          
+        }
+		.center{
+			display: flex;
+      width: 100%;
+			justify-content: center;
+		}
+		.header{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			background-color: red;
+			font-size: 20px;
+			border-bottom: 2px solid white;
+
+		}
+		.main{
+			background-color: black;
+			width: 900px;
+			height: auto;
+			border:3px solid white;
+			margin-top: 20px;
+
+		}
+		.inputbody{
+			padding: 10px;
+		}
+		h1{color: white}
+		#coursename{
+			font-size: 20px;
+			margin-top:-20px;
+			width: 90%;
+			border:2px solid red;
+		}
+		#description{
+			width: 90%;
+			height: 200px;
+			border:2px solid red;
+		}
+		input[type='submit']{
+			border:2px solid red;
+			font-size: 20px;
+			background-color: green;
+			color: white;
+		}
+        .db{
+          border:2px solid red;
+			font-size: 20px;
+			background-color: green;
+			color: black;
+        }
+	</style>
+  </head>
+  <body>     
+	<div class="center">
+		<div class="main">
+			<div class="header">
+				<h1>Wellcome</h1>
+			</div>
+			<div class="inputbody">
+    
+				<form action="home" method="post">
+          <h1>Title</h1><input type="text" name="title" placeholder=" Course Name....." id="coursename"><br><br>
+          <h1>Image link</h1><input type="text" name="imglink" placeholder=" Course Name....." id="coursename"><br><br>
+					<h1>Description</h1><textarea type="text" name="text" placeholder="Course description......" id="description"></textarea><br><br>
+          <input onclick="myFunction()" type="submit" name="submit" id="submit">
+				</form>
+        <script>
+            function myFunction() {
+              alert("Blog updated successfully");
+            }
+          </script>
+			</div>
+		</div>
+	</div>
+    
+    </div>
+    
+</body>
+</html>
